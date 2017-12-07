@@ -1,0 +1,38 @@
+page-fund-wallet {
+
+  .account-details {
+    background: #F7F8FA;
+    padding: 5% 10%;
+  }
+
+  .expense-details {
+    padding: 5% 10%;
+  }
+
+  .btn {
+    border-radius: 25px;
+    font-size: 0.8em;
+    padding: 15px 20px;
+  }
+
+  .blue-text {
+    color: #0190d3;
+  }
+
+  .m-t-5 {
+    margin-top: 5px;
+  }
+
+  .positive {
+    color: #57B320;
+  }
+
+  .negative {
+    color: #A7171A;
+  }
+
+  .expense {
+    border-bottom: 1px solid #ccc;
+    margin-top: 10px;
+  }
+}

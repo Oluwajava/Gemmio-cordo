@@ -1,0 +1,104 @@
+page-account {
+
+  .account-details {
+    background: #F7F8FA;
+    padding: 5% 10%;
+  }
+
+  .expense-details {
+    padding: 5% 10%;
+  }
+
+  .btn {
+    border-radius: 25px;
+    padding: 5px 30px;
+  }
+
+  .blue-text {
+    color: #0190d3;
+  }
+
+  .m-t-5 {
+    margin-top: 5px;
+  }
+
+  .positive {
+    color: #57B320;
+  }
+
+  .negative {
+    color: #A7171A;
+  }
+
+  .expense {
+    border-bottom: 1px solid #ccc;
+    margin-top: 10px;
+  }
+
+  ::-moz-selection {
+    background: #000;
+  }
+
+  ::selection {
+    background: #000;
+  }
+
+
+  .debit-card {
+    display: inline-block;
+    position: relative;
+    height: 200px;
+    width: 100%;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: right;
+    background: #0190d3;
+  }
+
+  .debit-card .card-number {
+    position: absolute;
+    top: 70px;
+    left: 10px;
+    color: #fff;
+    padding: 10px 10px 5px;
+  }
+  .debit-card .expiry-date {
+    position: absolute;
+    bottom: 65px;
+    left: 10px;
+    color: #fff;
+    padding: 10px 10px 5px;
+  }
+  .debit-card .expiry-date .label {
+    display: inline-block;
+    width: 40px;
+    text-align: right;
+    overflow: auto;
+    line-height: 0.75;
+    margin-left: -10px;
+  }
+  .debit-card .card-name {
+    color: #fff;
+    padding: 20px 20px 10px;
+  }
+  .debit-card .sort-acc {
+    position: absolute;
+    bottom: 15px;
+    left: 10px;
+    color: #fff;
+    padding: 10px 10px 5px;
+  }
+
+  .debit-card .visa-logo {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/281684/Visa.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 50px;
+  }
+
+
+}

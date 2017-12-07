@@ -1,0 +1,40 @@
+<!--
+  Generated template for the GiftCardDetailPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Gift Card
+    </ion-title>
+    <ion-buttons start>
+      <button ion-button (click)="dismiss()">
+        <span ion-text color="primary" showWhen="ios">Cancel</span>
+        <ion-icon name="md-close" showWhen="android,windows"></ion-icon>
+      </button>
+    </ion-buttons>
+    <ion-buttons end>
+      <button ion-button icon-only (click)="presentModal()">
+        <ion-icon name="share"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content padding>
+  <ion-label class="blue-text" text-center>SCAN GIFT CARD CODE</ion-label>
+
+  <div text-center>
+    <img src="assets/imgs/qr.PNG" class="qr" margin/>
+
+
+    <ion-label>
+      Scan the QR Code above<br/> to use gift card
+    </ion-label>
+
+    <ion-label>Balance: $200</ion-label>
+  </div>
+</ion-content>

@@ -1,0 +1,97 @@
+<!--
+  Generated template for the FundWalletPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>
+      Account
+    </ion-title>
+
+    <ion-buttons end>
+      <button ion-button icon-only (click)="presentModal()">
+        <ion-icon name="add-circle"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+
+  <div class="account-details">
+    <ion-slides pager>
+
+      <ion-slide>
+        <div class="debit-card">
+          <div class="card-number">4462 **** **** 9903</div>
+          <div class="card-name" text-left>Ige Mayokun Obaloluwa</div>
+          <div class="sort-acc"><ion-label>11/01</ion-label></div>
+          <div class="visa-logo"></div>
+        </div>
+      </ion-slide>
+
+
+    </ion-slides>
+  </div>
+
+  <div class="expense-details">
+    <ion-label>EXPENSE DETAILS</ion-label>
+    <ion-grid no-padding>
+      <ion-row class="expense">
+        <ion-col col-8>
+          <ion-row>Ebeano Supermarket</ion-row>
+          <ion-row><ion-label no-margin class="m-t-5" margin-bottom>Loyalty Earnings</ion-label></ion-row>
+        </ion-col>
+        <ion-col col-4>
+          <ion-row><ion-label text-right no-margin><label class="positive">+$1,000.00</label></ion-label></ion-row>
+          <ion-row><ion-label text-right no-margin class="m-t-5" margin-bottom>10 Oct 2017</ion-label></ion-row>
+        </ion-col>
+      </ion-row>
+      <ion-row class="expense">
+        <ion-col col-8>
+          <ion-row>Konga</ion-row>
+          <ion-row><ion-label no-margin class="m-t-5" margin-bottom>Online Shopping</ion-label></ion-row>
+        </ion-col>
+        <ion-col col-4>
+          <ion-row><ion-label text-right no-margin><label class="negative">-$1,000.00</label></ion-label></ion-row>
+          <ion-row><ion-label text-right no-margin class="m-t-5" margin-bottom>20 Oct 2017</ion-label></ion-row>
+        </ion-col>
+      </ion-row>
+      <ion-row class="expense">
+        <ion-col col-8>
+          <ion-row>Gemmio</ion-row>
+          <ion-row><ion-label no-margin class="m-t-5" margin-bottom>Loyalty Earnings</ion-label></ion-row>
+        </ion-col>
+        <ion-col col-4>
+          <ion-row><ion-label text-right no-margin><label class="positive">+$1,000.00</label></ion-label></ion-row>
+          <ion-row><ion-label text-right no-margin class="m-t-5" margin-bottom>10 Oct 2017</ion-label></ion-row>
+        </ion-col>
+      </ion-row>
+      <ion-row class="expense">
+        <ion-col col-8>
+          <ion-row>Starbucks</ion-row>
+          <ion-row><ion-label no-margin class="m-t-5" margin-bottom>Earnings</ion-label></ion-row>
+        </ion-col>
+        <ion-col col-4>
+          <ion-row><ion-label text-right no-margin><label class="positive">+$1,000.00</label></ion-label></ion-row>
+          <ion-row><ion-label text-right no-margin class="m-t-5" margin-bottom>10 Oct 2017</ion-label></ion-row>
+        </ion-col>
+      </ion-row>
+      <ion-row class="expense">
+        <ion-col col-8>
+          <ion-row>Konga</ion-row>
+          <ion-row><ion-label no-margin class="m-t-5" margin-bottom>Online Shopping</ion-label></ion-row>
+        </ion-col>
+        <ion-col col-4>
+          <ion-row><ion-label text-right no-margin><label class="negative">+$1,000.00</label></ion-label></ion-row>
+          <ion-row><ion-label text-right no-margin class="m-t-5" margin-bottom>20 Oct 2017</ion-label></ion-row>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
+</ion-content>

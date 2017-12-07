@@ -1,0 +1,103 @@
+<!--
+  Generated template for the FundWalletPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Fund Wallet</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+
+  <div class="account-details">
+    <ion-grid>
+      <div padding-top padding-bottom>
+        <ion-row no-margin>
+          <ion-label no-margin>YOUR BALANCE</ion-label>
+        </ion-row>
+        <ion-row no-margin class="m-t-5">
+          <ion-label no-margin><h1 no-margin class="blue-text">$1,000,000.00</h1></ion-label>
+        </ion-row>
+      </div>
+      <ion-row no-padding>
+        <ion-col no-padding col-8>
+          <ion-row no-margin>
+            <ion-label no-margin>TOTAL EXPENSE</ion-label>
+          </ion-row>
+          <ion-row no-margin class="m-t-5">
+            <ion-label no-margin><h4 no-margin>$10,000.00</h4></ion-label>
+          </ion-row>
+        </ion-col>
+        <ion-col no-padding col-4>
+          <ion-row>
+            <div text-right>
+              <button ion-button class="btn">+ LOAD</button>
+            </div>
+          </ion-row>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
+
+  <div class="expense-details">
+    <ion-label>EXPENSE DETAILS</ion-label>
+    <ion-grid no-padding>
+      <ion-row (click)="reciept()" class="expense">
+          <ion-col col-8>
+            <ion-row>Ebeano Supermarket</ion-row>
+            <ion-row><ion-label no-margin class="m-t-5" margin-bottom>Loyalty Earnings</ion-label></ion-row>
+          </ion-col>
+          <ion-col col-4>
+            <ion-row><ion-label text-right no-margin><label class="positive">+$1,000.00</label></ion-label></ion-row>
+            <ion-row><ion-label text-right no-margin class="m-t-5" margin-bottom>10 Oct 2017</ion-label></ion-row>
+          </ion-col>
+      </ion-row>
+      <ion-row class="expense">
+          <ion-col col-8>
+            <ion-row>Konga</ion-row>
+            <ion-row><ion-label no-margin class="m-t-5" margin-bottom>Online Shopping</ion-label></ion-row>
+          </ion-col>
+          <ion-col col-4>
+            <ion-row><ion-label text-right no-margin><label class="negative">-$1,000.00</label></ion-label></ion-row>
+            <ion-row><ion-label text-right no-margin class="m-t-5" margin-bottom>20 Oct 2017</ion-label></ion-row>
+          </ion-col>
+      </ion-row>
+      <ion-row class="expense">
+          <ion-col col-8>
+            <ion-row>Gemmio</ion-row>
+            <ion-row><ion-label no-margin class="m-t-5" margin-bottom>Loyalty Earnings</ion-label></ion-row>
+          </ion-col>
+          <ion-col col-4>
+            <ion-row><ion-label text-right no-margin><label class="positive">+$1,000.00</label></ion-label></ion-row>
+            <ion-row><ion-label text-right no-margin class="m-t-5" margin-bottom>10 Oct 2017</ion-label></ion-row>
+          </ion-col>
+      </ion-row>
+      <ion-row class="expense">
+          <ion-col col-8>
+            <ion-row>Starbucks</ion-row>
+            <ion-row><ion-label no-margin class="m-t-5" margin-bottom>Earnings</ion-label></ion-row>
+          </ion-col>
+          <ion-col col-4>
+            <ion-row><ion-label text-right no-margin><label class="positive">+$1,000.00</label></ion-label></ion-row>
+            <ion-row><ion-label text-right no-margin class="m-t-5" margin-bottom>10 Oct 2017</ion-label></ion-row>
+          </ion-col>
+      </ion-row>
+      <ion-row class="expense">
+          <ion-col col-8>
+            <ion-row>Konga</ion-row>
+            <ion-row><ion-label no-margin class="m-t-5" margin-bottom>Online Shopping</ion-label></ion-row>
+          </ion-col>
+          <ion-col col-4>
+            <ion-row><ion-label text-right no-margin><label class="negative">+$1,000.00</label></ion-label></ion-row>
+            <ion-row><ion-label text-right no-margin class="m-t-5" margin-bottom>20 Oct 2017</ion-label></ion-row>
+          </ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
+</ion-content>

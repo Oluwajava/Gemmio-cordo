@@ -1,0 +1,39 @@
+page-home {
+  color: #e8e8e8;
+
+  .logo {
+    width: 50%;
+    height: 50%;
+    margin-top: 25%;
+  }
+
+  .login-form ion-input {
+    background: #f7f8fa;
+    border-radius: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 0px;
+  }
+
+  .btn {
+    border-radius: 25px;
+  }
+
+  .btn-login {
+    background: #4cb906;
+    color: #fff;
+  }
+
+  .btn-login-google {
+    background: #f53d3d;
+    color: #fff;
+  }
+
+  .m-tb-50 {
+    margin: 50px 0;
+  }
+
+  .blue-text {
+    color: #01b2ff;
+  }
+}
